@@ -29,8 +29,6 @@ function App() {
     setTitle("");
     setUrl("");
     setTechs("");
-
-    console.log(repositories);
   }
 
   async function handleRemoveRepository(id) {
