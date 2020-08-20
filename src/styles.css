@@ -6,6 +6,7 @@
 
 body {
   font-size: 14px;
+  font-family: sans-serif;
 }
 
 div {
@@ -20,6 +21,19 @@ div li {
 
 div li + li {
   margin-top: 15px;
+}
+
+form {
+  margin-top: 30px;
+}
+
+form input {
+  display: flex;
+  margin: 5px 0;
+  height: 30px;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
 }
 
 button {
